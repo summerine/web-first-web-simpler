@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Tugas Layouting </title>
+	<style type="text/css">
+		body {
+			width: 100%;
+			background-color: #D3D3D3;
+		}
+
+		table {
+			border:1;
+			margin: 0 auto;
+			width: 900px;
+			border-collapse: collapse;
+			background-color: #fff; 
+		}
+
+		.logo {
+			height: 200px; 
+			text-align:center;
+			margin: auto;
+			width: 55%;
+			display: block;
+		}
+
+		.menu {
+			height: 70px;
+			text-align: right;
+			background-color: #000;
+		}
+
+		.menu ul {
+			list-style-type: none;
+		}
+
+		.menu li {
+			display: inline; 
+			margin: 0 10px;
+		}
+
+		.menu li a /* pilih elemen a yang berada dalam elemen li, li yang berada dalam class menu*/{
+			text-decoration: none; 
+			color: #fff;
+		}
+
+		.container /* pilih elemen yang punya class dengan nama container */ {
+			height: 600px; 
+			text-align: center; 
+			vertical-align: top;
+		}
+
+		.container img /*pilih img yang berada di class container */{
+			margin: 0 auto;
+			width: 100%;
+		}
+
+		#article {
+			text-align: left; 
+			font-size: 14pt; 
+			font-weight:bold;
+			padding: 50px 50px 0px 10px;
+		}
+
+		.article-table {
+			border-collapse: collapse; 
+			margin: 50px 0px 0px 10px;
+		}
+
+
+		.article-table img {
+			 width: 200px; 
+			 height: 200px;
+		}
+
+		.article-table p {
+			text-align: left;
+			padding: 10px 10px 100px 10px;
+		}
+
+		.footer {
+			text-align: center; 
+			padding: 20px; 
+			background-color: #000; 
+			color: #fff; 
+			position: relative;
+		}
+	</style>
+</head>
+
+<body>
+	<table>
+		<tr>
+			<td class="logo" style="background-image: url(images/beatleslogo.png);">  </td>
+		</tr>
+		<tr>
+			<td class="menu">
+				<ul>
+					<li> <a href="index.html"> Home </a></li>
+					<li> <a href="#"> About </a></li>
+					<li> <a href="#"> Contact </a></li>
+			</td>
+		</tr>
+		<tr>
+			<td class="container">
+				<img src="images/thebeatles1.gif";>
+				<p id="article"> Newest Articles </p>
+
+				<table class="article-table">
+					<tr>
+						<td><img src="images/thebeatles2.jpg";></td>
+						<td><p>PBS Broadcast Premiere Of Ron Howard&apos;s Acclaimed THE BEATLES&apos; EIGHT DAYS A WEEK&colon;
+						THE TOURING YEARS. It is based on the first part of The Beatles&apos; career (1962-1966) &mdash; the period in which they toured and captured the world&apos;s acclaim. The film explores how John Lennon, Paul McCartney, George Harrison and Ringo Starr came together to become this extraordinary phenomenon, &quotThe Beatles.&quot</p></td>
+					</tr>
+					<tr>
+						<td><img src="images/thebeatles3.jpg";></td>
+						<td><p>YELLOW SUBMARINE returns to cinemas across the UK, Ireland and the U.S. this summer. Picturehouse Entertainment are thrilled to announce the blues-banishing news that The Beatles&apos; legendary animated hit film YELLOW SUBMARINE is returning to cinemas across the UK and Ireland on 8 July 2018.</p></td>
+					</tr>
+					<tr>
+						<td><img src="images/thebeatles4.jpg";></td>
+						<td><p>Sgt Pepper&apos;s Lonely Hearts Club Band Anniversary Editions. It was 50 years ago when The Beatles&apos; John Lennon, Paul McCartney, George Harrison, and Ringo Starr astonished and delighted the world, ushering in the Summer of Love with Sgt. Pepper&apos;s Lonely Hearts Club Band, a groundbreaking masterwork that became popular music&apos;s most universally acclaimed album. To celebrate, we released a set of Anniversary Edition collections with new mixes in stereo and 5.1 surround audio; expanded with previously unreleased session recordings, video features & special packaging.</p></td>
+					</tr>
+				</table>
+			</td>
+			</tr>
+			<td class="footer"> <p> &copy Indri Puspita Rini 2018 </p></td>
+		</tr>
+	</table>
+
+
+</body>
+</html>
